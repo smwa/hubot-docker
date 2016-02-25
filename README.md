@@ -21,6 +21,12 @@ Then add **hubot-docker** to your `external-scripts.json`:
 ## Sample Interaction
 
 ```
-user1>> hubot hello
-hubot>> hello!
+user1>> hubot docker ps
+hubot>> containername: Up for 2 weeks
+```
+
+```
+user1>> hubot docker restart containername
+hubot>> Restarting containername...
+hubot>> containername
 ```
